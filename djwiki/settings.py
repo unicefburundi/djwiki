@@ -1,5 +1,9 @@
+# -*- coding: utf-8 -*-
 # Django settings for djwiki project.
+from os import path as os_path
+PROJECT_PATH = os_path.abspath(os_path.split(__file__)[0])
 
+print PROJECT_PATH
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
